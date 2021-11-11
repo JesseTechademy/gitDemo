@@ -24,3 +24,6 @@ git log --oneline
 
 git remote add origin https://github.com/JesseTechademy/gitDemo.git
     ->add remote repository
+
+git push 
+    -> used to upload local repository content to a remote repository
