@@ -1,0 +1,14 @@
+Hello world. 
+git config --global user.name "Jesse"
+git config --global user.email "jmatt1408@gmail.com" 
+git init 
+    ->initialised an empty git repository
+
+git add filename / git add . 
+    ->used to add files to the staging area
+
+git status 
+    ->used to find the state of the current working directory an staging area
+
+git reset 
+    ->used to remove files from the staging area
