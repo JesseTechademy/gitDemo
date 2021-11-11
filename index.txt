@@ -27,3 +27,5 @@ git remote add origin https://github.com/JesseTechademy/gitDemo.git
 
 git push 
     -> used to upload local repository content to a remote repository
+
+we are working on the main branch
