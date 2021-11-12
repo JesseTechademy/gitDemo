@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Basic Details Form</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>Hello there!</h1>
+        <h2>Please fill in your details below</h2>
+        <form>
+            <label for="username">Please enter your username:&nbsp;</label><br>
+            <input type="text" required/><br><br>
+
+            <label for="password">Please enter your password:&nbsp;</label><br>
+            <input type="password" required><br><br>
+            
+            <label for="profilePhoto">Please upload your profile photo:&nbsp;</label><br>
+            <input type="file" accept="image/png, image/jpeg, image/jpg"><br><br>
+
+            <label for="resume">Please upload your resumé:&nbsp;</label><br>
+            <input type="file" required><br><br>
+
+            <label for="cellNumber">Enter your contact number:</label><br>
+            <input type="tel"><br><br>
+
+            <label for="cellNumber">Enter your email address:</label><br>
+            <input type="email"><br><br>
+
+            <label for="birthdate">Enter your birth date:</label><br>
+            <input type="datetime-local" required><br><br>
+
+            <label for="gitHub">Enter your github url:</label><br>
+            <input type="url" minlength="8" placeholder="github.com"><br><br>
+
+            <label for="gender">Enter your gender:</label>
+            <div>                
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label><br>
+
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label><br>               
+                
+                <input type="radio" id="nonbinary" name="gender" value="Non-Binary" checked>
+                <label for="nonbinary">Non-Binary</label><br><br>
+            </div>
+
+            <label for="hobbies">Select your hobbies:</label><br>
+            <input type="checkbox" value="Gaming">Gaming<br>
+            <input type="checkbox" value="Racing">Racing<br>
+            <input type="checkbox" value="Fitness">Fitness<br>
+            <input type="checkbox" value="RemoteControlled">R/C Devices<br>
+            <input type="checkbox" value="Painting">Painting<br>
+            <input type="checkbox" value="Singing">Singing<br>
+            <input type="checkbox" value="Dancing">Dancing<br>
+            <input type="checkbox" value="Hiking">Hiking<br>
+            <input type="checkbox" value="Knitting">Knitting<br>
+            <input type="checkbox" value="Parkour">Parkour<br><br>
+
+            <button type="submit">Send</button>
+            
+
+        </form>
+    </body>
+</html>
